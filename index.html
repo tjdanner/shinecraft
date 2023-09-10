@@ -13,12 +13,15 @@
 </head>
 
 <body>
+  <!-- Banner -->
   <div id="banner">
     <h1>SHINECRAFT</h1>
     <p>Dirt and grime's worst fucking nightmare!</p>
     <button class="contact-button">Get Started</button>
   </div>
 
+
+  <!-- Services Section -->
   <div id="services-section">
     <h1>SERVICES</h1>
     <div id="services-container">
@@ -71,6 +74,8 @@
     </div>
   </div>
 
+
+  <!-- Our Mission/Bio -->
   <div id="bio-container">
     <h2>Our Mission</h2>
     <p>At Shinecraft, we're more than just a power washin' crew – we're your trusty sidekick for keepin' your place
@@ -85,6 +90,8 @@
     </p>
   </div>
 
+
+  <!-- End CTA -->
   <div id="end-cta">
     <div id="end-cta-card">
       <h1>Ready to get started?</h1>
@@ -92,6 +99,47 @@
       <button class="contact-button">Contact</button>
     </div>
   </div>
+
+
+  <!-- Contact Form -->
+  <div id="contact-container">
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required>
+      </div>
+
+      <div class="form-group">
+        <label for="service">Select a Service:</label>
+        <select id="service" name="service">
+          <option value="House Washing">House Washing</option>
+          <option value="Concrete Cleaning">Concrete Cleaning</option>
+          <option value="Deck Cleaning">Deck Cleaning</option>
+          <option value="Window Cleaning">Window Cleaning</option>
+          <option value="Gutter Clearing">Gutter Clearing</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+
+      <button id="submit-button" type="submit">Submit</button>
+    </form>
+
+  </div>
+
 </body>
 
 </html>

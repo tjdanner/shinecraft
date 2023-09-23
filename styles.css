@@ -38,6 +38,7 @@ body {
   background-size: 150%;
   background-repeat: no-repeat;
   padding: 5%;
+  box-sizing: border-box;
 }
 
 #banner h1 {
@@ -49,7 +50,7 @@ body {
 
 #banner p {
   font-size: 2rem;
-  margin-bottom: d 3rem;
+  margin: 0 0 2rem;
   /* font-weight: 800;
   letter-spacing: 6px; */
 }
@@ -151,6 +152,8 @@ body {
   background-position: 0 70%;
   background-repeat: no-repeat;
   background-size: 100%;
+  height: 30vh;
+  box-sizing: border-box;
 }
 
 #end-cta-card {
@@ -176,58 +179,46 @@ body {
   margin-top: 0;
 }
 
-/* Contact Form */
+/* Contact Info */
 #contact-container {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 350px;
-  border: solid 4px #66ffb2;
-  border-radius: 2rem;
-  padding: 2rem;
-}
-
-input,
-select {
+  padding: 10%;
   box-sizing: border-box;
-  height: 40px;
-  font-family: 'Montserrat';
-  border-radius: 1rem;
-  border: none;
-  padding: 0 1rem;
-  appearance: none;
+  background-color: var(--accent-1);
 }
 
-textarea {
-  height: 7rem;
-  font-family: 'Montserrat';
-  border-radius: 1rem;
-  border: none;
-  padding: 1rem;
-}
-
-#submit-button {
-  width: 50%;
-  align-self: center;
-  height: 50px;
-  border: none;
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border: 4px solid black;
   border-radius: 2rem;
-  font-family: 'Montserrat';
-  margin-top: 1rem;
+  box-sizing: border-box;
+  height: 100%;
+  gap: 15%;
+  padding: 10%;
+  background-color: var(--background-3);
+}
+
+.contact-info-group {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.contact-info-group h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.contact-info-group p {
+  font-size: 18px;
+  margin: 0;
 }
 
 /* Mobile Styling */
@@ -241,15 +232,16 @@ textarea {
   #banner {
     background-size: 400%;
     justify-content: center;
+    padding: 10%;
   }
 
   #banner h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: normal;
   }
 
   #banner p {
-    font-size: 1rem;
+    font-size: 20px;
     text-align: center;
   }
 

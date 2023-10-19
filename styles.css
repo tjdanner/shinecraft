@@ -35,10 +35,9 @@ body {
   align-items: center;
   background-image: url('media/layered-steps-haikei.svg');
   background-color: var(--background-1);
-  background-size: 150%;
+  background-size: 110%;
   background-repeat: no-repeat;
   padding: 5%;
-  box-sizing: border-box;
 }
 
 #banner h1 {
@@ -48,11 +47,18 @@ body {
   font-weight: 800;
 }
 
-#banner p {
+#banner h2 {
   font-size: 2rem;
-  margin: 0 0 2rem;
-  /* font-weight: 800;
-  letter-spacing: 6px; */
+  margin: 0;
+}
+
+#banner p {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: var(--background-3);
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 50%;
 }
 
 /* Welcome Section */
@@ -64,6 +70,8 @@ body {
   height: auto;
   padding: 5rem;
   gap: 5rem;
+  background-color: var(--background-1);
+  box-sizing: border-box;
 }
 
 #welcome-container h1 {
@@ -89,29 +97,14 @@ body {
   display: inline-block;
 }
 
-#welcome-copy {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  align-items: center;
-}
-
-#welcome-copy > * {
-  margin: 0;
-}
-
-#welcome-paragraph {
-  width: 600px;
-}
-
-#welcome-paragraph p {
-  font-size: 20px;
-}
-
 #welcome-list {
   width: 700px;
-  justify-content: center;
   padding: 0;
+  border: 4px solid var(--accent-3);
+  border-radius: 2rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: var(--background-3);
 }
 
 #welcome-list li {
@@ -135,7 +128,7 @@ body {
 .welcome-image {
   max-height: 100%;
   max-width: 100%;
-  width: 600px;
+  width: 400px;
   height: auto;
   display: block;
   margin: 0;
@@ -172,10 +165,10 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 350px;
-  border: solid 3px var(--accent-3);
+  border: solid 4px black;
   border-radius: 1rem;
   overflow: hidden;
-  background-color: var(--background-3);
+  background-color: var(--accent-3);
   color: rgb(0, 0, 0);
   padding: 2rem;
 }

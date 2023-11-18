@@ -368,7 +368,7 @@ body {
   }
 
   #welcome-container {
-    padding: 10% 0;
+    padding: 10% 5%;
   }
 
   #welcome-container h1 {
@@ -451,6 +451,8 @@ body {
   #bio-container h2 {
     font-size: 2rem;
     width: 100%;
+    justify-content: left;
+    margin-bottom: 1rem;
   }
 
   #bio-container p {

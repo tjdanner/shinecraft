@@ -388,9 +388,10 @@ body {
     font-size: 1.5rem;
   }
 
-  # #welcome-image-container {
+  #welcome-image-container {
     padding: none;
     gap: 3rem;
+    margin-bottom: 3rem;
   }
 
   .welcome-image {

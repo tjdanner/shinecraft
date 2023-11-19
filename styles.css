@@ -271,7 +271,7 @@ body {
 /* Contact Info */
 #contact-container {
   width: 100%;
-  height: 50vh;
+  height: 1650px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -280,7 +280,7 @@ body {
   background-color: black;
 }
 
-.contact-info-container {
+/* .contact-info-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -311,7 +311,7 @@ body {
 .contact-info-group p {
   font-size: 18px;
   margin: 0;
-}
+} */
 
 /* Mobile Styling */
 @media (max-width: 767px) {
@@ -489,7 +489,7 @@ body {
     padding: 5% 10% 10%;
   }
 
-  .contact-info-container {
+  /* .contact-info-container {
     overflow: hidden;
     width: 100%;
   }
@@ -497,7 +497,7 @@ body {
   .contact-info-group {
     align-items: center;
     width: 100%;
-  }
+  } */
 }
 
 /* Styling for contact info for viewports > mobile. */
